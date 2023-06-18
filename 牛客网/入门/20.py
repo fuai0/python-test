@@ -1,0 +1,5 @@
+str = input()
+str1 = str.replace(' ','|')
+list1 = str1.split("|")
+list1.append('Allen')
+print(list1)
